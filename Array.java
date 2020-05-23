@@ -67,6 +67,14 @@ public class Array<E> {
             throw new IllegalArgumentException("Get failed. Index is illegal.");
         return data[index];
     }
+    
+    public E getFirst() {
+        return get(0);
+    }
+    
+    public E getLast() {
+        return get(size-1);
+    }
 
     // 查找数组中元素e所在的索引，如果不存在元素e，则返回-1
     public int find(E e) {
