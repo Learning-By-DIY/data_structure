@@ -1,3 +1,5 @@
+package com.github;
+
 public interface Stack<E> {
     int getSize();
     boolean isEmpty();
